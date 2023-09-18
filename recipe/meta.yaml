@@ -25,7 +25,7 @@ requirements:
     - numpy
     - scipy
     - matplotlib-base
-    - datastock >=0.0.31
+    - datastock >=0.0.32
 
 test:
   imports:
