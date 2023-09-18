@@ -32,8 +32,10 @@ test:
     - bsplines2d
   commands:
     - pip check
+    - conda install -c conda-forge datastock>=0.0.32
   requires:
     - pip
+    - conda
 
 about:
   home: https://github.com/ToFuProject/bsplines2d
