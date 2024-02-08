@@ -1,5 +1,5 @@
 {% set name = "bsplines2d" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,8 +7,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bsplines2d-{{ version }}.tar.gz
-  sha256: 00ea3dcfbb7ded883ac160034b8e75e77d637dc73bdc122a9be6e09498cbed99
-  
+  sha256: 8d07dec89d9893bc773c07818b11835bc11b902144d23a8e09692bd677316a30
+
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
