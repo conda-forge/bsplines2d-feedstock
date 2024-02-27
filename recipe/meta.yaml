@@ -8,7 +8,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bsplines2d-{{ version }}.tar.gz
   sha256: 444df9f3e52154dc659d47c13dd28f3f0677534629211e911c6f3ea1be01c224
-  
+
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
