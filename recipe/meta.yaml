@@ -1,5 +1,5 @@
 {% set name = "bsplines2d" %}
-{% set version = "0.0.20" %}
+{% set version = "0.0.21" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bsplines2d-{{ version }}.tar.gz
-  sha256: 7d4aea1f28898980bb2d9a1349432da21e599a64228f34b48bd50c5022060b26
+  sha256: 3dd2b8cbf69dfeb5b56a9d4cbc5254cf024b29896e4f4b3bff030d3952091df7
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - numpy
     - scipy
     - matplotlib-base
-    - datastock >=0.0.46
+    - datastock >=0.0.49
 
 test:
   imports:
